@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "557796573589",
+    "firebase_url": "https://krishokerhasi.firebaseio.com",
+    "project_id": "krishokerhasi",
+    "storage_bucket": "krishokerhasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557796573589:android:493a1ed65fa44bf9",
+        "android_client_info": {
+          "package_name": "com.example.pranto.krishokerhasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557796573589-ui1ce8r2b8532ho9onlntickej90m42h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pranto.krishokerhasi",
+            "certificate_hash": "1a6937844a6562ed5879301e9f9bad9e3209e993"
+          }
+        },
+        {
+          "client_id": "557796573589-mp5bri80f0jivn5r1q08e726532bna87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiFY681qeH2kqiz1d7ga6AsLIdl10udn8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557796573589-mp5bri80f0jivn5r1q08e726532bna87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

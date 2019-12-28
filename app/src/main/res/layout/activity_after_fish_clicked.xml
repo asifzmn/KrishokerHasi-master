@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranto.krishokerhasi.activity.after_fish_clicked">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:background="@color/com_facebook_button_background_color_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textKrisokerhasi"
+            android:text=" কৃষকের হাসি"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/homebutton"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <!--Scroll view for this page to hold the all options-->
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/RelativeLayout1">
+
+        <!--Relative_layout_for_options is used for all items -->
+
+        <RelativeLayout
+            android:id="@+id/Relative_layout_for_options"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/rui_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/rui"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/rui_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/rui_button"
+                android:text="রুই"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="45dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/katla_button"
+                android:layout_marginLeft="210dp"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/katla"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:id="@+id/katla_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/katla_button"
+                android:text="কাতলা"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="235dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/mrigel_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/mrigel"
+                android:layout_below="@+id/rui_button"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/mrigel_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/mrigel_button"
+                android:text="মৃগেল"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/chingri_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/chingri"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/katla_button"
+                android:layout_marginTop="50dp"/>
+
+
+            <TextView
+                android:id="@+id/chingri_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/chingri_button"
+                android:text="চিংড়ি"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="240dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/koi_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/koi"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/mrigel_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/koi_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/koi_button"
+                android:text="কৈ"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/magur_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/magur"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/chingri_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/magur_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/magur_button"
+                android:text="মাগুর"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="240dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/kalbaush_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/kalbaus"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/koi_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/kalbaush_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/kalbaush_button"
+                android:text="কালবাউস"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="23dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/telapia_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/telapia"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/magur_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/telapia_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/telapia_button"
+                android:text="তেলাপিয়া"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="220dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/silver_carp_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/silver_carp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/kalbaush_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/silver_carp_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/silver_carp_button"
+                android:text="সিলভার কার্প"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/grass_carp_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/grass_carp"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/telapia_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/grass_carp_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/grass_carp_button"
+                android:text="গ্রাস কার্প "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="223dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
+

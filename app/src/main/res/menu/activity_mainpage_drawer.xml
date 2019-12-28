@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/catagory"
+            android:icon="@drawable/catagory"
+            android:title="ক্যাটাগরি" />
+
+        <item
+            android:id="@+id/post"
+            android:icon="@drawable/post"
+            android:title="পোস্ট দিন" />
+
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/update"
+            android:title="আপডেট" />
+
+        <item
+            android:id="@+id/hotline"
+            android:icon="@drawable/callicon"
+            android:title="হটলাইন" />
+
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/searchicon"
+            android:title="জিজ্ঞাসা" />
+
+        <item
+            android:icon="@drawable/news"
+            android:id="@+id/about_us"
+            android:title="কৃষি খবর"/>
+
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exit"
+            android:title="সমাপ্তি"/>
+
+    </group>
+
+</menu>

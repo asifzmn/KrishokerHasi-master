@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranto.krishokerhasi.activity.after_animal_clicked">
+
+
+    <!--LinearLayout1 nisi jeno mobile screen er uporer bar theke option gula ektu distance e ase-->
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:background="@color/com_facebook_button_background_color_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textKrisokerhasi"
+            android:text=" কৃষকের হাসি"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/homebutton"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <!--Scroll view add korsi, ei page ta ke scrollable bananor jonno-->
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/RelativeLayout1">
+
+        <!--Relative_layout_for_options er vitor common page er sob option gula rakbo :) -->
+
+        <RelativeLayout
+            android:id="@+id/Relative_layout_for_options"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/cow_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/cow"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/cow_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/cow_button"
+                android:text="গরু"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/buffalo_button"
+                android:layout_marginLeft="210dp"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/buffalo"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:id="@+id/bufelo_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/buffalo_button"
+                android:text="মহিষ"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/goat_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/goat"
+                android:layout_below="@+id/cow_button"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/goat_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/goat_button"
+                android:text="ছাগল"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="45dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/sheep_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/sheep"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/buffalo_button"
+                android:layout_marginTop="50dp"/>
+
+
+            <TextView
+                android:id="@+id/sheep_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/sheep_button"
+                android:text="ভেড়া"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/chicken_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/hen"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/goat_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/chicken_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/chicken_button"
+                android:text="মুরগি"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="45dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/duck_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/duck"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/sheep_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/duck_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/duck_button"
+                android:text="হাঁস"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/pegeon_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/pegeon"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/chicken_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/peageon_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/pegeon_button"
+                android:text="কবুতর"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="35dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/koel_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/koel"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/duck_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/koel_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/koel_button"
+                android:text="কোয়েল"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="240dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
+    <!--tools:context="com.example.pranto.krishokerhasi.activity.after_animal_clicked">-->

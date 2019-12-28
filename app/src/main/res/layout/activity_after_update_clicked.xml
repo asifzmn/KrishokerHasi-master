@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranto.krishokerhasi.activity.after_update_clicked">
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/RelativeLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:background="@color/com_facebook_button_background_color_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textKrisokerhasi"
+            android:text=" কৃষি   বিষয়ক  কিছু প্রয়োজনীয় তথ্যঃ"
+            android:textSize="38dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Relative_layout_for_options er vitor common page er sob option gula rakbo :) -->
+
+        <LinearLayout
+            android:id="@+id/ll_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

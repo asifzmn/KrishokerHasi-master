@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranto.krishokerhasi.activity.after_crop_clicked">
+
+
+    <!--LinearLayout1 nisi jeno mobile screen er uporer bar theke option gula ektu distance e ase-->
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:background="@color/com_facebook_button_background_color_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textKrisokerhasi"
+            android:text=" কৃষকের হাসি"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/homebutton"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <!--Scroll view add korsi, ei page ta ke scrollable bananor jonno-->
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/RelativeLayout1">
+
+        <!--Relative_layout_for_options er vitor common page er sob option gula rakbo :) -->
+
+        <RelativeLayout
+            android:id="@+id/Relative_layout_for_options"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/rice_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/rice"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/rice_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/rice_button"
+                android:text="ধান"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/wheat_button"
+                android:layout_marginLeft="210dp"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/wheat"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:id="@+id/wheat_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/wheat_button"
+                android:text="গম"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/corn_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/corn"
+                android:layout_below="@+id/rice_button"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/corn_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/corn_button"
+                android:text=" ভুট্টা"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/potato_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/potato"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/wheat_button"
+                android:layout_marginTop="50dp"/>
+
+
+            <TextView
+                android:id="@+id/potato_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/potato_button"
+                android:text="আলু"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/jute_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/jute"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/corn_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/jute_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/jute_button"
+                android:text="পাট"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/sugarcane_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/sugarcane"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/potato_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/sugarcane_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/sugarcane_button"
+                android:text="আখ"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/brinjal_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/brinjal"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/jute_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/brinjal_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/brinjal_button"
+                android:text="বেগুন"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="35dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/potol_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/potol"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/sugarcane_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/potol_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/potol_button"
+                android:text="পটল"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="250dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/onion_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/onion"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/brinjal_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/onion_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/onion_button"
+                android:text="পেঁয়াজ"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="35dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/morich_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/morich"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/potol_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/morich_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/morich_button"
+                android:text="মরিচ "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="250dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
+   <!-- tools:context="com.example.pranto.krishokerhasi.activity.after_crop_clicked">-->

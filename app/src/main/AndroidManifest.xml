@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pranto.krishokerhasi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon2"
+        android:label="কৃষকের হাসি"
+        android:roundIcon="@drawable/appicon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="কৃষকের হাসি"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.common_page" />
+        <activity android:name=".activity.after_catagory_clicked" />
+        <activity android:name=".activity.after_update_clicked" />
+        <activity android:name=".activity.InfoPage" />
+        <activity
+            android:name=".socialnetwork.ui.activities.MainActivity_socialnetwork"
+            android:label="আপন আঙ্গিনা"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".socialnetwork.ui.activities.PostActivity" />
+        <activity android:name=".socialnetwork.ui.activities.RegisterActivity" />
+        <activity android:name=".activity.after_animal_clicked" />
+        <activity android:name=".activity.after_crop_clicked" />
+        <activity android:name=".activity.after_fish_clicked" />
+        <activity android:name=".activity.after_fruits_clicked" />
+        <activity android:name=".activity.text_search" />
+        <activity android:name=".activity.audio_file" />
+        <activity android:name=".activity.notification" />
+        <activity android:name=".activity.NotificationActivity"></activity>
+
+        <receiver android:name=".java_class.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.media.action.DISPLAY_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

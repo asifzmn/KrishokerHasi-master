@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranto.krishokerhasi.activity.after_fruits_clicked">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:background="@color/com_facebook_button_background_color_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textKrisokerhasi"
+            android:text=" কৃষকের হাসি"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/homebutton"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <!--Scroll view for this page to hold the all options-->
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/RelativeLayout1">
+
+        <!--Relative_layout_for_options is used for all items -->
+
+        <RelativeLayout
+            android:id="@+id/Relative_layout_for_options"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp">
+
+            <Button
+                android:id="@+id/mango_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/mango"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/mango_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/mango_button"
+                android:text="আম"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/lichi_button"
+                android:layout_marginLeft="210dp"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/lichi"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:id="@+id/lichi_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/lichi_button"
+                android:text="লিচু"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/jackfruit_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/jackfruit"
+                android:layout_below="@+id/mango_button"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/jackfruit_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/jackfruit_button"
+                android:text="কাঁঠাল"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/banana_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/banana"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/lichi_button"
+                android:layout_marginTop="50dp"/>
+
+
+            <TextView
+                android:id="@+id/banana_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/banana_button"
+                android:text="কলা"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/pineapple_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/pineapple"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/jackfruit_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/pineapple_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/pineapple_button"
+                android:text="আনারস"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/papaya_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/papaya"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/banana_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/papaya_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/papaya_button"
+                android:text="পেঁপে"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/guava_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/boroi"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/pineapple_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/guava_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/guava_button"
+                android:text="বাউকুল"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="35dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/lemon_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/lemon"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/papaya_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/lemon_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/lemon_button"
+                android:text="লেবু"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="250dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/watermelon_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/watermelon"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/guava_button"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/watermelon_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/watermelon_button"
+                android:text="তরমুজ"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="35dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+            <Button
+                android:id="@+id/boroi_button"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/boroi"
+                android:layout_marginLeft="210dp"
+                android:layout_below="@+id/lemon_button"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/boroi_text"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/boroi_button"
+                android:text="বাউকুল "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="240dp"
+                android:textColor="@android:color/background_dark"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranto.krishokerhasi.activity.audio_file"
+    android:background="@android:color/holo_blue_dark">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:orientation="horizontal"
+        android:id="@+id/image_l">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/audio_listening"/>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/image_l">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="প্রয়োজনীয় তথ্য শুনতে নিচের বাটনটিতে একবার প্রেস করুন আর বিরতির  জন্য পুনরায় প্রেস করুনঃ"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l1">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/start_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@mipmap/music_player3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="প্রেস করুন"
+                android:layout_gravity="bottom"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/background_dark"/>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranto.krishokerhasi.activity.after_catagory_clicked">
+
+
+    <!--This Relativelayout is for the krisoker hasi image and homebutton-->
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:background="@color/com_facebook_button_background_color_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textKrisokerhasi"
+            android:text=" কৃষকের হাসি"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/homebutton"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp">
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/backimage1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/textview_contentmain">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/Crops_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ফসল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@color/com_facebook_button_background_color_disabled"
+                   />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/backimage2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/backimage1">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/Fruits_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ফলমূল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@color/com_facebook_button_background_color_disabled"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/backimage3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/backimage2">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/Fish_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="মাছ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@color/com_facebook_button_background_color_disabled"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/backimage4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/backimage3">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/Animal_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="গবাদিপশু-পাখি"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@color/com_facebook_button_background_color_disabled"/>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

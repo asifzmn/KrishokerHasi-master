@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/logInButton"
+            android:icon="@mipmap/login"
+            android:title="লগ ইন" />
+
+        <item
+            android:id="@+id/postButton"
+            android:icon="@mipmap/post"
+            android:title="পোস্ট" />
+        <item
+            android:id="@+id/logoutButton"
+            android:icon="@mipmap/logout"
+            android:title="লগ আউট" />
+    </group>
+
+
+</menu>
